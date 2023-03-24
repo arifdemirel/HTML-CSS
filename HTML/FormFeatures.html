@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+        <h1>Form Features</h1>
+        <pre>
+           <p> 
+            size: form elemanı genişliği
+            value: form elemanının değeri
+            placeholder: form elemanında açıklama metni görünmesini sağlar(title gibi)
+            name: form elemanının benzersiz adı
+            id: form elemanının tanım kodu
+            autofocus:
+            autocomplete:
+            maxlength: form'da maksimum karakter miktarını belirler
+            required: form elemanınun mutlaka doldurulması gerektiğini belirtirç form elemanı boş bırakılırsa hata mesajı alırsınız
+            disabled: form elemanının pasif hale getirilmesini ve kullanılmamasını sağlar
+          </p>
+        </pre>
+
+        <h2>FormFeaturesSample</h2>
+        <form autocomplete="on">
+            Ad Soyad: <input type="text" 
+            size="15" 
+            maxlength="50"
+            name="adsoyad" 
+            id="adad" 
+            autofocus
+            placeholder="ad soyad yaz"
+            disabled   
+            >
+
+        </form>
+
+
+        <form name="test" 
+        action="domain.php" 
+        method="get">
+        Ad Soyad:
+        <input type="text" 
+        name="adsoyad"><br>
+        Email: <input type="email"
+        name="email"> <br>
+        Öneri:
+        <textarea name="oneri" cols="30" rows="3"></textarea>
+        </form>
+</body>
+</html>
