@@ -1,0 +1,16 @@
+p
+{
+    font-style: italic; color:red;
+}
+h1
+{
+    border-style: double;
+    border-width: 10px 20px 30px 40px;
+    /* border-width: 30px 40px; this one makes perpendiicular lines the same  */
+    border-color: yellow red yellow red;  
+    /* border-color: yellow red;  this one makes sides perpendicular to each other same color. */
+    width: 200px;
+    height: 96px;
+    padding: 0px 50px 10px 20px;
+    margin: 30px
+}

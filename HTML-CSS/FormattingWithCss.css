@@ -1,0 +1,118 @@
+p {
+  text-indent: 30px;
+  line-height: 25px;
+}
+#abc {
+  text-align: left;
+}
+#def {
+  text-align: right;
+}
+#ghi {
+  text-align: center;
+  text-decoration: overline;
+  letter-spacing: 10px;
+  word-spacing: 10px;
+  word-wrap: normal;
+}
+#a1 {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  color: red;
+  font-size: 18px;
+  font-weight: 900;
+  font-style: italic;
+  /* font-style:oblique; */
+  /* font-variant: small-caps; */
+  /* font-variant:normal; */
+  text-transform: capitalize;
+  /* text-transform: uppercase; */
+  text-decoration: underline;
+}
+.text {
+  color: violet;
+  font-size: 12px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-style: oblique;
+  background-color: blue;
+}
+#a2 {
+  background-color: aquamarine;
+}
+#a3 {
+  background-image: url "random picture";
+  background-size: 100px 50px;
+  background-repeat: no-repeat;
+  /* background-repeat:repeat-x; */
+  background-position: center;
+}
+div ol {
+  font-family: "Courier New", Courier, monospace;
+  color: blue;
+  font-size: 16px;
+  font-weight: bolder;
+  font-style: italic;
+}
+#li1 {
+  list-style-type: disc;
+}
+#li2 {
+  list-style-type: circle;
+}
+#li3 {
+  list-style-type: square;
+}
+#li4 {
+  list-style-type: decimal;
+}
+#li5 {
+  list-style-type: lower-alpha;
+}
+#li6 {
+  list-style-type: lower-greek;
+}
+#li7 {
+  list-style-type: lower-latin;
+}
+#li7 {
+  list-style-type: lower-roman;
+}
+#li8 {
+  list-style-type: upper-alpha;
+}
+
+#li9 {
+  list-style-type: upper-latin;
+}
+#li10 {
+  list-style-type: upper-roman;
+}
+#li11 {
+  list-style-type: upper-greek;
+}
+#li12 {
+  list-style-type: url;
+}
+
+#myTable{
+    background-color: beige;
+    /* background-image: url("blabla.com"); */
+    /* border-collapse:collapse; */
+    /* border-collapse:separate; */
+    border-width: 20;
+    border-color: brown;
+    color:red;
+    position:relative;
+    text-align: center;
+    padding: 5px;
+    margin: 5px;
+    vertical-align:middle;
+}
+th{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 16px;
+    font-weight: bolder;
+    color: brown;
+    background-color: white;
+    padding: 10px;
+    margin: 10px;
+}

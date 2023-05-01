@@ -1,0 +1,110 @@
+#maindiv{
+    border-style: solid;
+    border-color: aliceblue;
+    width: 300px;
+    margin:auto;
+    background-color: aqua;
+    border-radius: 10px 20px 30px 40px;
+    border-width: 5px 10px 20px 40px;
+    border-color: blue;
+    overflow: hidden;
+    overflow: visible;
+    overflow: scroll;
+    overflow: auto;
+}
+#mainheader{
+    border-style: dashed;
+    border-color: black;
+    background-color: blueviolet;
+    width: 280px;
+    height: 50px;
+    margin: auto;
+    border-radius: 10px 20px 30px 40px;
+    border-width: 5px 10px 20px 40px;
+}
+#mainnav{
+    border-style: dotted;
+    border-color:brown;
+    background-color:bisque;
+    width: 280px;
+    height: 50px;
+    margin: auto;
+    border-radius: 10px 20px 30px 40px;
+    border-width: 5px 10px 20px 40px;
+    /* margin:3% */
+    /* padding-top: 0%; */
+}
+#mainarticle{
+    border-style: double;
+    border-color: azure;
+    background-color: blueviolet;
+    width: 280px;
+    margin: auto;
+    min-height: 250px;
+    border-radius: 10px 20px 30px 40px;
+    border-width: 5px 10px 20px 40px;
+}
+
+#secondarybigdiv{
+    border-style: solid;
+    border-color: aliceblue;
+    width: 200px;
+    height: 100px;
+    margin:auto;
+    background-color: aqua;
+    position: fixed;
+    border-radius: 10px 20px 30px 40px;
+    border-width: 5px 10px 20px 40px;
+    /*"fixed" arranges the box position based on the page  */
+    right: 30px;
+    bottom: 10px;
+}
+#secondarysmalldiv
+{
+    border-style: solid;
+    border-color:brown;
+    width: 100px;
+    height: 50px;
+    margin:auto;
+    background-color: aqua;
+    position: absolute;
+    left: 10px;
+    top: 10px;
+    /* border-radius top-left top-right bottom-left bottom-right */
+    border-radius: 10px 20px 30px 40px;
+    border-width: 5px 10px 20px 40px;
+    /*"position" moves the box based on its initial position */
+    /* position: relative;
+    left: 15.5px;
+    top: 20px; */
+    /* right: 15.5px;
+    bottom: 10px; */
+}
+.box1{
+    width: 400px; height: 150px; border-style: solid; background-color: white;
+    z-index: -3;
+    
+}
+#nestedbox1{
+    z-index: 3;
+    background-color: red;
+}
+
+#nestedbox2{
+    position: relative;
+    top: -50px;
+    left: 50px;
+    background: yellow;
+    z-index: -1;
+}
+
+.boxshadow{
+    z-index: 10;
+    /* box-shadow: none; */
+    box-shadow: h-shadow;    
+    /* box-shadow: v-shadow;
+    box-shadow: blur;
+    box-shadow: spread;
+    box-shadow: color;
+    box-shadow: inset; */
+}

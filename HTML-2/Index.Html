@@ -5,11 +5,25 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>HomePage</title>
+
+    <script>
+        function WriteMessage()
+        {
+            var h1= document.getElementById(message);
+
+            h1.innerText="Hello";
+
+
+
+            console.log(h1);
+        };
+    </script>
+
 </head>
 <body>
     
     
-    <a href="Courses.html">Courses</a> |
+    <a href id="Courses.html">Courses</a> |
     <a href="Instructors.html">Instructors</a> |
     <a href="Contact Us.html">Contact Us</a>   |
     <a href="http://www.arifdemirel.com" target="_blank" >Arif Demirel</a> |
@@ -19,9 +33,9 @@
     <!--_self opens the document in the same tab/window it was clicked-->
     <!--_top opens the document in the full body of the windows-->
    
-    <p>this is the homepage</p>
+    <p >this is the homepage</p>
 
-    <h2>Download Turkish Flag</h2>
+    <h2 id="message">Download Turkish Flag</h2>
     <a href="Pictures/mapofturkiye.png">Download Your T-Shirt</a> |
     <br>
     <a href="mailto:arifdemirelelt@gmail.com">Send email</a> |

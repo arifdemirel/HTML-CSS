@@ -1,0 +1,61 @@
+#page{
+    border-style: solid;
+    border-color:blueviolet;
+    border-width: 2px;
+    width: 800px;
+    min-height: 600px;
+    margin: auto; 
+}
+#header{
+    border-style: dotted;
+    border-color: auto;
+    width: 720px;
+    height: 50px;
+    margin:auto;
+    background-color: chocolate;
+}
+/* or write id */
+#page nav{
+    border-style: dashed;
+    border-color: greenyellow;
+    width: 720px;
+    height: 30px;
+    margin:auto;
+    background-color: blue;
+    float: left;
+}
+#page article{
+    border-style: solid;
+    border-color: yellow;
+    width: 500px;
+    min-height: 450px;
+    margin:auto;
+    background-color: chocolate;
+    float:left;
+    position: relative;
+    left: 17px;
+}
+#page aside{
+    border-style: solid;
+    border-color: yellow;
+    width: 255px;
+    min-height: 450px;
+    margin:auto;
+    background-color: red;
+    float:right;
+    position: relative;
+    right: 17px;
+    
+    
+}
+#page footer{
+    border-style: dashed;
+    border-color: greenyellow;
+    width: 720px;
+    height: 30px;
+    margin:auto;
+    background-color: seagreen;
+    float: left;
+    position: relative;
+    left: 17px;
+}
