@@ -8,7 +8,7 @@
     <meta name="keywords" content="arif,demirel,html,css,javascript,c#,sharp,sql,entity, asp.net">
     <title>Arif Demirel'in Kişisel Web Sitesi</title>    
     <link rel="stylesheet" href="template.css">
-    <link rel="script" href="jsTemplate.js">
+    <link rel="script" href="script.js">
     <script>
         // alert("Welcome Home");
         var x = 10000;
@@ -19,6 +19,65 @@
         document.write(toplam);
         document.write(" ve "+ t);
         
+        var myGlobal=10;
+
+
+    var ourArray = [15,16,23,42];
+    ourArray[3] =69;
+    console.log(ourArray[3]);
+
+/*Nested Arrays aka 2d arrays and also 3d arrays */
+
+var myArray = [[1,2,3], [4,5,6],[7,8,9], [[10,11,12], 13,14]] 
+var myData = myArray[2][1];
+console.log(myData);
+/* it will print 8 */
+
+/* shift removes first element while pop removes the last element*/
+
+/*unshift adds an element to the 0 index while push add an element to the end of the array */
+
+var myList= [["cereal",3],["milk",2], ["bananas",3],["juice",2],["eggs",5]];
+
+
+function ourReusableFunction()
+{
+    console.log("Yello World");
+    
+}
+
+function reusableFunction()
+{
+    console.log("ham girllll!");
+    
+}
+
+function ourFunctionWithParameters(a,b)
+{
+    console.log(a-b);
+}
+
+function functionWithParameters(a,b)
+{
+    console.log(a+b);
+}
+
+ourReusableFunction();
+reusableFunction();
+ourFunctionWithParameters(1000,1);
+functionWithParameters(1000,1);
+
+
+var outerWear = "T-Shirt";
+
+function myOutfit()
+{
+    var outerWear = "Sweater";
+    return outerWear;
+}
+console.log(outerWear);
+console.log(myOutfit());
+
         // alert(toplam);
     </script>
 
@@ -28,13 +87,13 @@
     <div id="page">
         <header id="banner">
             <div id="logo">
-                <a href="template.html"><img src="/PersonalWebsiteTemplate/Pictures/vesikalık 5.jpg" alt="Profil Fotosu"></a>                
+                <a href="template.html"><img src="/Pictures/5.jpg" alt="Profil Fotosu"></a>                
             </div>
             <div id="socials">
-                <a href="#"><img src="/PersonalWebsiteTemplate/Pictures/instagram.png" alt="Instagram"> </a>
-                <a href="#"><img src="/PersonalWebsiteTemplate/Pictures/linkedin.png" alt="Linkedin"></a>
-                <a href="#"><img src="/PersonalWebsiteTemplate/Pictures/github.png" alt="Github"></a>
-                <a href="#"><img src="/PersonalWebsiteTemplate/Pictures/twitter.png" alt="Twitter"></a>
+                <a href="#"><img src="/Pictures/instagram.png" alt="Instagram"> </a>
+                <a href="#"><img src="/Pictures/linkedin.png" alt="Linkedin"></a>
+                <a href="#"><img src="/Pictures/github.png" alt="Github"></a>
+                <a href="#"><img src="/Pictures/twitter.png" alt="Twitter"></a>
                 
                 
             </div>
@@ -67,7 +126,7 @@
                 <a href="template.html">Eğitim</a> |
                 <a href="contact-us.html">İletişim</a> |
                 <br>
-                <p>All Rights Reserved And Maybe The Lefts</p>
+                <p>All Rights Reserved And Probably The Lefts</p>
             </ul>
         </footer>
 
