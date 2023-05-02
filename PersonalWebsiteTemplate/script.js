@@ -24,7 +24,7 @@ function ourReusableFunction()
     console.log("Yello World");
     
 }
-
+// ``  backtick is created with alt-gr and comma button
 function reusableFunction()
 {
     console.log("ham girllll!");
@@ -43,5 +43,5 @@ function functionWithParameters(a,b)
 
 ourReusableFunction();
 reusableFunction();
-ourFunctionWithParameters(1000,1);
-functionWithParameters(1000,1);
+ourFunctionWithParameters(1001,1);
+functionWithParameters(999,1);
