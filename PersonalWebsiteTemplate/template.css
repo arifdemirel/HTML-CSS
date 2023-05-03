@@ -7,7 +7,9 @@
 }
 
 body{
-    background-color: aqua;
+    /* background-color: aqua; */
+    /* background-color: #8BACAA; */
+    background-color: #B0DAFF;
     background-image: url("/PersonalWebsiteTemplate/Pictures/twitter-1848505.png");
     background-size: 90px 60px;
     background-repeat: repeat;
@@ -78,7 +80,7 @@ body{
     border-color: violet;
     border-style: solid;   
     border-width: 5px;
-    background-color:azure;
+    background-color:#F99B7D;
 }
 
 #mainMenu ul{
@@ -167,7 +169,7 @@ body{
     height: 50px;
     border-style: solid;
     border-width: 5px;
-    /* background-color: #0f774a; */
+    background-color: #0f774a;
     background-color: #AAC8A7;
     float: left;
     border-color: yellowgreen;

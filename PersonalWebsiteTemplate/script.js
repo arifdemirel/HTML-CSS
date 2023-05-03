@@ -45,3 +45,15 @@ ourReusableFunction();
 reusableFunction();
 ourFunctionWithParameters(1001,1);
 functionWithParameters(999,1);
+
+
+function trueOrFalse(wasThatTrue)
+{
+    if(wasThatTrue)
+    {
+        return "Yes, that was true";
+    }
+    return "No, that was not true";
+}
+
+console.log(trueOrFalse(true));
